@@ -1,0 +1,83 @@
+* {
+    box-sizing: border-box;
+    /* border: outset; */
+    width: 70%;
+    margin: 0;
+}
+ body{
+    background-color: #72858c;
+ } 
+h1{
+    font-family: 'Eczar', serif;
+    font-family: 'Poiret One', cursive;
+    margin-left: 200px;
+    margin-bottom: 50px;
+}
+h3,h4 {
+    font-family: 'Eczar', serif;
+    font-family: 'Poiret One', cursive;
+    font-weight: bold;
+}
+
+.play-again{
+    margin-left: 79px;
+}
+.score{
+    display: -webkit-inline-box;
+}
+
+h4{
+    margin-left: 147px;
+    padding-right: 20px;
+    font-size: 1.17em;
+}
+.box1{
+    border: 1px solid black;
+    height: 70px;
+    width: 70px;
+    cursor: pointer;
+}
+.container{
+    width: 100vw;
+    height: 100vh;
+    grid-template-columns: repeat(3, auto);
+    justify-content: center;
+    align-content: center;
+    display: grid;
+    padding-bottom: 216px;
+}
+
+
+
+main{
+   text-align: center;
+}
+
+.firstUser{
+    background-color: #fdddca;
+    cursor: not-allowed;
+    pointer-events: none;
+    
+}
+
+.secondUser {
+    background-color: #8f583c;
+    cursor: not-allowed;
+    pointer-events: none;
+    
+}
+.player-one {
+    color: #fdddca;
+}
+
+.player-two {
+    color: #8f583c;
+}
+
+.winner{
+    background-color: black;
+}
+
+/* .wunning {
+    float:
+} */
