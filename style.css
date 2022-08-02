@@ -8,16 +8,20 @@ body{
     background-color: #72858c;
 } 
 .leader{
-    border: 1px solid black;
+    /* border: 1px solid black; */
     margin: 3px;
     width: 100%;
 }
-.title{
+.title {
     text-align: center;
-    border: 1px solid black;
+    color: #FDFBF9
+}
+.footer{
+    text-align: center;
+    color: #FDFBF9;
+    margin-top: -20%;
 }
 .score{
-    border: 1px solid black;
     text-align: center;
     display: grid;
     height: 100px;
@@ -27,7 +31,7 @@ main{
    text-align: center;
    height: 100px;
 }
-h1{
+h1, h2{
     font-family: 'Eczar', serif;
     font-family: 'Poiret One', cursive;
     /* height: 200px;
